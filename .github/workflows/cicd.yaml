@@ -47,6 +47,9 @@ jobs:
     environment: production
     env:
       IP_SERVER: ${{ secrets.IP_SERVER }}
+      USERNAME_GITHUB: ${{ secrets.USERNAME_GITHUB }}
+      TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+
     runs-on: ubuntu-latest
 
     steps:
